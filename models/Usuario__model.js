@@ -1,5 +1,8 @@
 class Usuario {
-    constructor(id_persona, nombre, apellido, dni, fecha_nacimiento,
+
+
+    constructor(
+        id_persona, nombre, apellido, dni, fecha_nacimiento,
         sexo, direccion, telefono, correo_electronico, id_ciudad, password) {
         this.id_persona = id_persona;
         this.id_ciudad = id_ciudad;
